@@ -17,7 +17,8 @@ def getAnswer(answerNumber):
 	elif answerNumber==8:
 		return "outlook is not so good"
 	elif answerNumber==9:
-		return "very doubtful"
+		return "Are you crazy?"
+	
 r=random.randint(1,9)
 fortune=getAnswer(r)
 print(fortune)
